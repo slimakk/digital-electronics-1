@@ -1,1 +1,2 @@
-# digital-electronics-1
+# Digitalni elektronika 1
+## 2021/2022
