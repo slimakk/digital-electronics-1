@@ -54,7 +54,7 @@
         -- Expected output
         assert ((s_B_greater_A = '1') and
                 (s_B_equals_A  = '0') and
-                (s_B_less_A    = '0'))
+                (s_B_less_A    = '1'))
         -- If false, then report an error
         report "Input combination 0011, 0000 FAILED" severity error;
 
@@ -66,8 +66,8 @@
 
 2. Text console screenshot during your simulation, including reports.
 
-   ![your figure]()
+   ![Console](console.png)
 
 3. Link to your public EDA Playground example:
 
-   [https://www.edaplayground.com/...](https://www.edaplayground.com/...)
+   [4bit comparator example](https://www.edaplayground.com/x/LSVb)
