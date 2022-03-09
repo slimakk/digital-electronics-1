@@ -10,3 +10,5 @@
 # Journal file: C:/Users/miros/Desktop/Skola/DE1/digital-electronics-1/labs/04-segment/display\vivado.jou
 #-----------------------------------------------------------
 start_gui
+open_project C:/Users/miros/Desktop/Skola/DE1/digital-electronics-1/labs/04-segment/display/display.xpr
+update_compile_order -fileset sources_1

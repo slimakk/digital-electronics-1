@@ -1,0 +1,199 @@
+/*
+
+Xilinx Vivado v2020.2.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3118627 on Tue Feb  9 05:14:06 MST 2021
+IP Build: 3115676 on Tue Feb  9 10:48:11 MST 2021
+
+Process ID (PID): 11432
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Wed Mar 09 17:50:11 CET 2022
+Time zone: 	Central European Standard Time (Europe/Prague)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 3
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	miros
+User home directory: C:/Users/miros
+User working directory: C:/Users/miros/Desktop/Skola/DE1/digital-electronics-1/labs/04-segment/display
+User country: 	SK
+User language: 	sk
+User locale: 	sk_SK
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.2
+RDI_DATADIR: C:/Xilinx/Vivado/2020.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/miros/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/miros/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/miros/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/miros/Desktop/Skola/DE1/digital-electronics-1/labs/04-segment/display/vivado.log
+Vivado journal file location: 	C:/Users/miros/Desktop/Skola/DE1/digital-electronics-1/labs/04-segment/display/vivado.jou
+Engine tmp dir: 	C:/Users/miros/Desktop/Skola/DE1/digital-electronics-1/labs/04-segment/display/.Xil/Vivado-11432-DESKTOP-SOL9CH4
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.2
+
+
+GUI allocated memory:	133 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,017 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// aK (cr): Older Project Version: addNotify
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// HMemoryUtils.trashcanNow. Engine heap size: 1,017 MB. GUI used memory: 65 MB. Current time: 3/9/22, 5:50:12 PM CET
+// WARNING: HEventQueue.dispatchEvent() is taking  1012 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1002 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1002 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1006 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1003 ms.
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Opening Vivado Project: C:\Users\miros\Desktop\Skola\DE1\digital-electronics-1\labs\04-segment\display\display.xpr. Version: Vivado v2020.1 
+// bz (cr):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+dismissDialog("Older Project Version"); // aK
+// Tcl Message: open_project C:/Users/miros/Desktop/Skola/DE1/digital-electronics-1/labs/04-segment/display/display.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/miros/Desktop/Skola/DE1/digital-electronics-1/labs/04-segment/display/display.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/Documents/xbabel02/digital-electronics-1/labs/04-segment/display' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [Project 1-230] Project 'display.xpr' upgraded for this version of Vivado. INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 71 MB (+72275kb) [00:00:53]
+// [Engine Memory]: 1,017 MB (+914700kb) [00:00:53]
+// [GUI Memory]: 94 MB (+20353kb) [00:00:54]
+// [GUI Memory]: 114 MB (+15479kb) [00:00:54]
+// WARNING: HEventQueue.dispatchEvent() is taking  4725 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:08 . Memory (MB): peak = 1011.848 ; gain = 0.000 
+// Project name: display; location: C:/Users/miros/Desktop/Skola/DE1/digital-electronics-1/labs/04-segment/display; part: xc7a50ticsg324-1L
+// [GUI Memory]: 131 MB (+11976kb) [00:00:58]
+dismissDialog("Open Project"); // bz
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 12 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd)]", 1); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 4); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd)]", 1, true, false, false, false, false, true); // D - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd)]", 1, true); // D - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd)]", 1); // D
+// Elapsed time: 18 seconds
+selectCodeEditor("top.vhd", 47, 397); // bP
+selectCodeEditor("top.vhd", 52, 460); // bP
+selectCodeEditor("top.vhd", 53, 450); // bP
+selectCodeEditor("top.vhd", 249, 402); // bP
+// Elapsed time: 107 seconds
+selectCodeEditor("top.vhd", 106, 397); // bP
+// Elapsed time: 40 seconds
+selectCodeEditor("top.vhd", 100, 401); // bP
+typeControlKey((HResource) null, "top.vhd", 'v'); // bP
+// Elapsed time: 244 seconds
+selectCodeEditor("top.vhd", 201, 408); // bP
+selectCodeEditor("top.vhd", 201, 399); // bP
+// Elapsed time: 32 seconds
+selectCodeEditor("top.vhd", 357, 396); // bP
+// Elapsed time: 67 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_hex_7seg(testbench) (tb_hex_7seg.vhd)]", 6); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_hex_7seg(testbench) (tb_hex_7seg.vhd)]", 6); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top(Behavioral) (top.vhd)]", 7); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top(Behavioral) (top.vhd)]", 7); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_hex_7seg(testbench) (tb_hex_7seg.vhd)]", 6, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_hex_7seg(testbench) (tb_hex_7seg.vhd)]", 6, true, false, false, false, false, true); // D - Double Click - Node
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // m
+// Elapsed time: 265 seconds
+selectCodeEditor("top.vhd", 251, 442); // bP
+// Elapsed time: 89 seconds
+selectCodeEditor("top.vhd", 173, 442); // bP
+// Elapsed time: 39 seconds
+selectCodeEditor("top.vhd", 694, 453); // bP
+selectCodeEditor("top.vhd", 126, 455); // bP
+// Elapsed time: 12 seconds
+selectCodeEditor("top.vhd", 473, 396); // bP
+selectCodeEditor("top.vhd", 501, 514); // bP
+// Elapsed time: 23 seconds
+selectCodeEditor("top.vhd", 450, 402); // bP
+// Elapsed time: 33 seconds
+selectCodeEditor("top.vhd", 190, 399); // bP
+selectCodeEditor("top.vhd", 569, 317); // bP
+// Elapsed time: 12 seconds
+selectCodeEditor("top.vhd", 196, 400); // bP
+selectCodeEditor("top.vhd", 720, 473); // bP
+// [GUI Memory]: 140 MB (+2739kb) [00:18:53]
+// Elapsed time: 121 seconds
+selectCodeEditor("top.vhd", 244, 355); // bP
+selectCodeEditor("top.vhd", 243, 350); // bP
+// Elapsed time: 334 seconds
+selectCodeEditor("top.vhd", 27, 161); // bP
+typeControlKey((HResource) null, "top.vhd", 'c'); // bP
+// Elapsed time: 78 seconds
+selectCodeEditor("top.vhd", 31, 199); // bP
+typeControlKey((HResource) null, "top.vhd", 'c'); // bP
+selectCodeEditor("top.vhd", 32, 245); // bP
+selectCodeEditor("top.vhd", 26, 246); // bP
+typeControlKey((HResource) null, "top.vhd", 'c'); // bP
+// HMemoryUtils.trashcanNow. Engine heap size: 1,017 MB. GUI used memory: 83 MB. Current time: 3/9/22, 6:20:12 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,017 MB. GUI used memory: 75 MB. Current time: 3/9/22, 6:50:12 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,017 MB. GUI used memory: 74 MB. Current time: 3/9/22, 7:20:13 PM CET
+// Elapsed time: 5128 seconds
+selectCodeEditor("top.vhd", 369, 232); // bP
+selectCodeEditor("top.vhd", 341, 171); // bP
+// Elapsed time: 99 seconds
+selectCodeEditor("top.vhd", 28, 80); // bP
+typeControlKey((HResource) null, "top.vhd", 'c'); // bP
+// HMemoryUtils.trashcanNow. Engine heap size: 1,017 MB. GUI used memory: 74 MB. Current time: 3/9/22, 7:50:13 PM CET
